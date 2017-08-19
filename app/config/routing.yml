@@ -1,0 +1,9 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+AppBundle:
+    path:       /test/{sumthin}
+    defaults:   { _controller: AppBundle:Default:test }    
